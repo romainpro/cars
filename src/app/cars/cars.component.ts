@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { model } from 'src/models/model.model';
+import { Model } from 'src/models/model.model';
+
 
 @Component({
   selector: 'app-cars',
@@ -9,8 +10,9 @@ import { model } from 'src/models/model.model';
 
 export class CarsComponent implements OnInit {
   
-  @Input()carInfo!:model;
-  
+  @Input()carInfo!:Model;
+
+
   ngOnInit(): void {
    
   }
