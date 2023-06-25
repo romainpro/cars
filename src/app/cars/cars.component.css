@@ -7,25 +7,46 @@
 .card{
     height: 500px;
     height: 500px;
-    border: 2px rgb(255, 255, 255) solid;
+    border: 5px #FDCA40 solid;
     border-radius: 10%/50%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;    
-    background-color: #070707;
+    background-color: #171738;
     margin: 50px 0px 50px 0px;
    
 }
 .info{
-    color: whitesmoke;
-    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+    width:20%;
+    padding: 2%;
+    border-radius: 50%/10%;
+    color: #ffffff;
+    font-size: 2.1em;
+    background-color:#FDCA40
+}
+span{
+    color:black ;
     
 }
 img{
+    filter: grayscale(0.5);
     cursor: pointer;
-    -webkit-box-shadow: 5px 5px 15px 5px #FFFFFF; 
-    box-shadow: 5px 5px 10px 5px #FFFFFF;
+    -webkit-box-shadow: 5px 5px 15px 5px #69747C; 
+    box-shadow: 5px 5px 10px 5px #69747C;
+    border-radius: 10%/50%;
+    
 }
 img:hover{
     transform: scale(0.9);
+    filter: grayscale(0);
+    border: 3px double orange;
+    transform: skew(-10deg, 0deg);
+    
+}
+p{
+    margin-bottom: 20px;
 }
